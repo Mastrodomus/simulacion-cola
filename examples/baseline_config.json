@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "arrival_mean_min": 8.0,
+  "arrival_mode": "poisson",
+  "scan_mean_min": 25.0,
+  "scan_sd_min": 6.0,
+  "service_dist": "exp",
+  "mri_capacity": 1,
+  "sim_duration_min": 480.0,
+  "warmup_min": 30.0,
+  "no_show_rate": 0.05,
+  "viz_speed_steps_per_frame": 2
+}
