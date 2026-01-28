@@ -1,0 +1,19 @@
+[project]
+name = "mri-queue-sim"
+version = "0.1.0"
+description = "Simple DES + 3D visualization for MRI patient queues (SimPy + Ursina)"
+requires-python = ">=3.10"
+dependencies = [
+  "simpy>=4.1.1",
+  "ursina>=6.1.2",
+  "numpy>=1.26.0"
+]
+
+[project.scripts]
+mri-sim = "mri_queue_sim.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
